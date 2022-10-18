@@ -1,11 +1,6 @@
 // Import the functions you need from the SDKs you need
 const { initializeApp } = require("firebase/app");
-const {
-  getFirestore,
-  collection,
-  getDocs,
-  addDoc,
-} = require("firebase/firestore");
+const { getFirestore, collection, addDoc } = require("firebase/firestore");
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
